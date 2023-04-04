@@ -526,6 +526,10 @@ footer {
         font-size: 14px;
         line-height: 21px;
     }
+    header .social,
+    .swiper-pagination-wrapper {
+        display: none !important;
+    }
     .logo {
         float: none;
     }
@@ -533,8 +537,8 @@ footer {
         float: none;
         width: 100%;
     }
-    .textblock h2
-    {
+    .textblock h2,
+    .newsletter-title {
         font-size: 30px;
         line-height: 36px;
     }
@@ -543,14 +547,35 @@ footer {
         clear: both;
         text-align: center;
     }
-    .textblock img,.textblock img.align-right 
-    {
+    .textblock img,
+    .textblock img.align-right {
         margin: 0 auto 20px !important;
         float: none !important;
         display: block;
     }
+    .newsletter-form input[type="email"],
+    .newsletter-form input[type="text"] {
+        width: 200px;
+    }
     .main {
         padding-bottom: 290px;
+    }
+    footer {
+        height: 290px;
+        margin: -290px 0 0;
+    }
+    .footer-image {
+        height: 140px;
+    }
+    .twitter-post {
+        font-size: 18px;
+        line-height: 26px;
+        -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
     }
     
 }
