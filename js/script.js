@@ -20,8 +20,8 @@ $(document).ready(function(){
         pagination: '.swiper-pagination',
         paginationClickable: true,
         autoplayDisableOnInteraction: false,
-        autoplay: 6000,
-        speed: 600,
+        autoplay: 4000,
+        speed: 5000,
         calculateHeight: true,
         loop: true
     });
@@ -37,4 +37,4 @@ $(document).ready(function(){
 
 
 
-});//document ready
+});

@@ -1,73 +1,24 @@
 /* reset -------------------------- */
-html,
-body,
-div,
-ul,
-ol,
-li,
-dl,
-dt,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-dfn,
-del,
-p,
-blockquote,
-fieldset,
-input,
-textarea,
-select,
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-button,
-canvas,
-video {
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,dfn,del,p,blockquote,fieldset,input,textarea,select,article,
+aside,details,figcaption,figure,footer,header,hgroup,nav,section,button,canvas,video 
+{
     margin: 0;
     padding: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-address,
-caption,
-cite,
-code,
-th,
-dfn,
-del {
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,th,dfn,del 
+{
     font-weight: normal;
     font-style: normal;
 }
-ul,
-ol {
+ul,ol 
+{
     list-style: none;
 }
-fieldset,
-img {
+fieldset,img 
+{
     border: none;
 }
-caption,
-th {
+caption,th {
     text-align: left;
 }
 table {
@@ -94,32 +45,23 @@ textarea {
     overflow: auto;
     resize: none;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-nav,
-section,
-.clearfix {
+article,aside,details,figcaption,figure,footer,header,nav,section,
+.clearfix 
+{
     display: block;
 }
-audio,
-canvas,
-video {
+audio,canvas,video 
+{
     display: inline-block;
 }
 a > img {
     vertical-align: bottom;
 }
-strong,
-b {
+strong,b 
+{
     font-weight: bold;
 }
-em,
-i {
+em,i {
     font-style: italic;
 }
 del {
@@ -130,6 +72,12 @@ del {
 }
 
 
+
+
+
+
+
+
 /* tools -------------------------- */
 .clear {
     clear: both;
@@ -138,12 +86,8 @@ del {
     height: 0;
     font-size: 0;
 }
-.clearfix:after,
-.wrap:after,
-aside:after,
-section:after,
-article:after,
-.text:after {
+.clearfix:after,.wrap:after,aside:after,section:after,article:after,.text:after 
+{
     content: ".";
     display: block;
     clear: both;
@@ -162,6 +106,12 @@ article:after,
     overflow: hidden;
     display: block;
 }
+
+
+
+
+
+
 
 /* common -------------------------- */
 html {
@@ -224,12 +174,12 @@ a:active {
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
-button,
-.button {
+button,.button 
+{
     font-size: 18px;
     color: #ffffff;
     font-weight: 500;
-    background: #e2574c;
+    background: #fa9600;   /* Background of the buttons*/
     border: 0;
     padding: 0 18px;
     display: inline-block;
@@ -302,12 +252,8 @@ input[type="email"]:focus,
     background: #e4e7e7;
     clear: both;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 
+{
     color: #2b414d;
 }
 h1 {
@@ -327,16 +273,17 @@ h3 {
     line-height: 24px;
     text-transform: uppercase;
 }
-.social li a,
-.ico-bulb,
-.ico-rocket,
-.ico-flag,
-.twitter-ico {
+.social li a,.ico-bulb,.ico-rocket,.ico-flag,.twitter-ico {
     background: url(images/sprite.png) no-repeat 0 0;
 }
 .dark {
     color: #2b414d;
 }
+
+
+
+
+
 
 
 /* header -------------------------- */
@@ -401,6 +348,12 @@ header {
     background-color: #c64333;
 }
 
+
+
+
+
+
+
 /* footer -------------------------- */
 .main {
     padding-bottom: 390px;
@@ -430,6 +383,12 @@ footer .social li {
     -o-background-size: cover;
     background-size: cover;
 }
+
+
+
+
+
+
 
 /* content -------------------------- */
 .features {
@@ -471,9 +430,8 @@ footer .social li {
 .features-column:hover h3:after {
     background: #e2574c;
 }
-.ico-bulb,
-.ico-rocket,
-.ico-flag {
+.ico-bulb,.ico-rocket,.ico-flag 
+{
     display: block;
     margin: 0 auto 30px;
     height: 64px;
@@ -487,6 +445,12 @@ footer .social li {
 .ico-flag {
     background-position: -300px 0;
 }
+
+
+
+
+
+
 
 /* slider -------------------------- */
 .slider {
@@ -745,6 +709,17 @@ footer .social li {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive all mobile sizes -------------------------- */
 @media (max-width: 767px){
     body {
@@ -804,6 +779,18 @@ footer .social li {
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive just mobile portrait -------------------------- */
