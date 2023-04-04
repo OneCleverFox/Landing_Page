@@ -466,8 +466,8 @@ footer {
     cursor: -webkit-grab;
     cursor: grab;
 }
-.swiper-slide.grabbing,
-.swiper-slide:active {
+.swiper-slide.grabbing,.swiper-slide:active 
+{
     cursor: -moz-grabbing;
     cursor: -webkit-grabbing;  
     cursor: grabbing;
@@ -543,8 +543,8 @@ footer {
         clear: both;
         text-align: center;
     }
-    .textblock img,
-    .textblock img.align-right {
+    .textblock img,.textblock img.align-right 
+    {
         margin: 0 auto 20px !important;
         float: none !important;
         display: block;
@@ -552,14 +552,7 @@ footer {
     .main {
         padding-bottom: 290px;
     }
-    footer {
-        height: 290px;
-        margin: -290px 0 0;
-    }
-    .footer-image {
-        height: 140px;
-    }
-        
+    
 }
 
 
